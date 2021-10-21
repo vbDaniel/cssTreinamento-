@@ -41,7 +41,7 @@ Movimentação  absoluta em ambos, não se difere ao mudar o tamanho da tela, n�
 
 - Margin: A propriedade usada para gerar espaço por fora de um elemento. Meche nos conteudos adjacentes. Deve-se usar com cuidado, pois vai superar ou puxar os espaços e conteúdos dos elementos ao adjacentes .
 
-## Dia 2 (04,05)
+## Dia 2 (04,05,06)
 
 04 • z-index: usado pra posicionamento de tela, só funciona em elementos de position: absolute, position: relative, position: fixed or position sticky. Tambem em itens flexiveis.
 
