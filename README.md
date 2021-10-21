@@ -75,8 +75,7 @@ Movimentação  absoluta em ambos, não se difere ao mudar o tamanho da tela, n�
 
 order: a ordem de defalt pode ser alterada por meio da propriedade order:
 
- `.item2{order( `
-
+ `.item2{order: VALOR}`
 
 - flex-grow: define a proporção  com que o item deve crescercaso necessário. Por padrao seu valor é 0. Muito pouco usado.
 
@@ -86,7 +85,7 @@ order: a ordem de defalt pode ser alterada por meio da propriedade order:
 
 Uma extensão  de CSS que adciona poder e elegância  ao CSS básico.
 
-
+Estudar sobre
 
 
 
