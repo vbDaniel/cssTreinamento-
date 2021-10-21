@@ -41,6 +41,52 @@ Movimentação  absoluta em ambos, não se difere ao mudar o tamanho da tela, n�
 
 - Margin: A propriedade usada para gerar espaço por fora de um elemento. Meche nos conteudos adjacentes. Deve-se usar com cuidado, pois vai superar ou puxar os espaços e conteúdos dos elementos ao adjacentes .
 
+## Dia 2 (04,05)
+
+04 • z-index: usado pra posicionamento de tela, só funciona em elementos de position: absolute, position: relative, position: fixed or position sticky. Tambem em itens flexiveis.
+
+```CSS
+.z-index1{
+  position: relative
+  z-index: valor // quando número de z-index é maior do outro z-index é vai sobrepor. 
+  backgrounde-color: blue;
+  width: 100px;
+  heigh: 100 px;
+}
+
+```
+## 05 • Flex-box: 
+é unidimensional , ou seja, linha **OU** coluna. Organiza os elementos da pagina HTML. 
+
+**display: É o passo inicial para o flex-box (display: flex)**
+
+
+- flex-direction: aplicado ao container, e define o eixo/fluxo de exibição  em que os elentos serão  organizados. Ordena a lista, muito usado para menus.
+
+- flex-wrap: Com a propriedade  de flex-wrap funciona como quebra de linha dos container's
+
+- flex-flow: se aplica ao container, é uma forma reduzida de escrita para ter as duas felx-direction e felx-wrape.
+
+- justify-content: propriedade que define a justificação  dos containers, muito usado em todas as situações.
+
+- align-content: define como as coluna são definidas ao longo do eixo horizontal. Só funciona com mais de uma coluna.
+
+- align-items: define como as linha são distribuídas ao longos das linhas verticais.
+
+order: a ordem de defalt pode ser alterada por meio da propriedade order:
+
+ `.item2{order( `
+
+
+- flex-grow: define a proporção  com que o item deve crescercaso necessário. Por padrao seu valor é 0. Muito pouco usado.
+
+- flex-shrink: define a proporção  com que o intem deve diminuir. Por padrão seu valor é 0. Muito pouco usado.
+
+## 06 - Intro SASS ( !IMPORTANTE PARA FRONT-END -> CSS 3 ):
+
+Uma extensão  de CSS que adciona poder e elegância  ao CSS básico.
+
+
 
 
 
